@@ -1,10 +1,10 @@
 <?php
 /*
   Plugin Name: Redirect After Comment Per Page
-  Plugin URI: TODO
+  Plugin URI: http://www.anyideas.net/redirect-after-comment-per-page-wordpress-plugin/
   Description: Redirects commenters to a page-defined URL after clicking submit.
   Author: Jean-Philippe Policieux
-  Version: 0.9
+  Version: 0.9.1
   Author URI: http://www.anyideas.net
  */
 
@@ -153,7 +153,7 @@ function racpp_redirect_after_comment_admin_page() {
         <form method="post" action="" id="racpp-settings">
             <br />
             <input type="checkbox" name="racpp_redirect_enabled" value="checked" <?php echo $settings['enabled']; ?> /> <strong><?php _e("Enable Plugin ?", 'redirect-after-comment-per-page'); ?></strong><br /><br />
-            <p><h2><?php _e("Additional Usage Notes", 'redirect-after-comment-per-page'); ?></h2><?php _e("Enter URL's in using the standard complete format:", 'redirect-after-comment-per-page'); ?> <strong>http://www.example.com/example_extended/</strong><br /><br /></p>
+
 
             <input type="hidden" name="action" value="update" />
             <input type="hidden" name="page_options" value="racpp_redirect_settings" />
@@ -161,6 +161,9 @@ function racpp_redirect_after_comment_admin_page() {
                 <input type="submit" value="<?php _e('Save Changes', 'redirect-after-comment-per-page') ?>" />
             </p>
         </form>
+            <h2><?php _e("Additional Usage Notes", 'redirect-after-comment-per-page'); ?></h2>
+	    <p><?php _e("Instructions", 'redirect-after-comment-per-page'); ?> : <a href="http://www.anyideas.net/redirect-after-comment-per-page-wordpress-plugin/">http://www.anyideas.net/redirect-after-comment-per-page-wordpress-plugin/</a></p>
+	    <p><?php _e("Instructions (Français)", 'redirect-after-comment-per-page'); ?> : <a href="http://www.anyideas.net/redirect-after-comment-per-page-wordpress-plugin-francais/">http://www.anyideas.net/redirect-after-comment-per-page-wordpress-plugin-francais/</a></p>
     </div>
     <?php
 }
