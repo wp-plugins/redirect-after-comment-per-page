@@ -4,7 +4,7 @@
   Plugin URI: http://www.anyideas.net/redirect-after-comment-per-page-wordpress-plugin/
   Description: Redirects commenters to a page-defined URL after clicking submit.
   Author: Jean-Philippe Policieux
-  Version: 0.9.1
+  Version: 0.9.2
   Author URI: http://www.anyideas.net
  */
 
@@ -48,6 +48,7 @@ add_action( 'add_meta_boxes', 'racpp_meta_box_add' );
 function racpp_meta_box_add()  
 {  
     add_meta_box( 'racpp-meta-box-id', 'Redirect after comment per page', 'racpp_meta_box', 'page', 'normal', 'high' );  
+    add_meta_box( 'racpp-meta-box-id', 'Redirect after comment per page', 'racpp_meta_box', 'post', 'normal', 'high' );  
 }  
 
 /* Content of meta box */
