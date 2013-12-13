@@ -3,8 +3,8 @@ Contributors: policieuxjp
 Donate link: http://www.anyideas.net/redirect-after-comment-per-page-wordpress-plugin/
 Tags: comments, redirect, launch, plugin
 Requires at least: 3.0
-Tested up to: 3.6.1
-Stable tag: 0.9.2
+Tested up to: 3.8
+Stable tag: 0.9.3
 License: GPLv2 or later
 
 Redirects commenters to a predefined URL after comment submission. Each page/post can have a different redirection.
@@ -29,7 +29,17 @@ The "Redirect After Comment Per Page" plugin will redirect automatically the com
 
 1. New panel to define redirection URL
 
+== Frequently Asked Questions ==
+
+= Is it working with redirection to external websites ? =
+
+Unfortunately no. You need to use this plugin with another one called "Quick
+Redirects" to redirect to an external URL.
+
 == Changelog ==
+
+= 0.9.3 =
+* Wordpress 3.8 check : OK !
 
 = 0.9.2 =
 * Work now on posts as well (He who can do more, can do less, thanks Dave)
