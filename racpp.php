@@ -4,7 +4,7 @@
   Plugin URI: http://www.anyideas.net/redirect-after-comment-per-page-wordpress-plugin/
   Description: Redirects commenters to a page-defined URL after clicking submit.
   Author: Jean-Philippe Policieux
-  Version: 0.9.2
+  Version: 0.9.4
   Author URI: http://www.anyideas.net
  */
 
