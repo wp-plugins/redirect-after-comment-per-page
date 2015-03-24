@@ -3,7 +3,7 @@ Contributors: policieuxjp
 Donate link: http://www.anyideas.net/redirect-after-comment-per-page-wordpress-plugin/
 Tags: comments, redirect, launch, plugin
 Requires at least: 3.0
-Tested up to: 4.0
+Tested up to: 4.1.1
 Stable tag: 0.9.4
 License: GPLv2 or later
 
